@@ -206,13 +206,16 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R5v-mF-XbK">
-                                <rect key="frame" x="96" y="529" width="230" height="58"/>
+                                <rect key="frame" x="121" y="529" width="181" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.66267007590000004" green="0.78652864690000002" blue="0.78394061329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
-                                <state key="normal" title="  DAILY TASK  ">
+                                <state key="normal" title="  PHOTOS  ">
                                     <color key="titleColor" systemColor="labelColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="1ad-bQ-Bn7" kind="show" id="nYj-vB-dPD"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FV2-AL-haW">
                                 <rect key="frame" x="76" y="401" width="264" height="58"/>
@@ -242,6 +245,67 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="8.6956521739130448" y="88.392857142857139"/>
+        </scene>
+        <!--Camera View Controller-->
+        <scene sceneID="YpP-0C-BlX">
+            <objects>
+                <viewController id="1ad-bQ-Bn7" customClass="CameraViewController" customModule="plantASeed" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fRk-T8-rcR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mSp-63-7d8">
+                                <rect key="frame" x="20" y="20" width="52" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="pTX-1P-gOF"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="camera.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="OfB-LH-1sw">
+                                <rect key="frame" x="29" y="207.5" width="356" height="194"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.44607843137254899" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EvI-V8-SaJ">
+                                <rect key="frame" x="110" y="451" width="194" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <state key="normal" title="Take A Picture"/>
+                                <connections>
+                                    <action selector="takeAPicture:" destination="1ad-bQ-Bn7" eventType="touchUpInside" id="daR-31-iuZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H0n-kG-ljq">
+                                <rect key="frame" x="64" y="537" width="287" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <state key="normal" title="Choose From Library"/>
+                                <connections>
+                                    <action selector="chooseFromLibrary:" destination="1ad-bQ-Bn7" eventType="touchUpInside" id="TXj-6v-Ynk"/>
+                                    <action selector="choosePhotoTap:" destination="C9v-aA-8eB" eventType="touchUpInside" id="6zt-om-D7v"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eaS-bh-gim">
+                                <rect key="frame" x="80" y="639" width="255" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <state key="normal" title="See all photos --&gt; "/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="luP-yh-gVC"/>
+                        <color key="backgroundColor" red="0.72578185799999995" green="0.75503653289999995" blue="0.69127774239999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="kYH-Qd-nbY"/>
+                    <connections>
+                        <outlet property="displayImage" destination="OfB-LH-1sw" id="a8t-sw-aip"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j59-eW-quT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="C9v-aA-8eB" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="900.00000000000011" y="1355.3571428571429"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="kGF-hs-EWs">
@@ -409,10 +473,11 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="6G4-d5-ceF"/>
-        <segue reference="x8a-zK-JRt"/>
+        <segue reference="pTX-1P-gOF"/>
         <segue reference="fbo-oU-qGp"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="camera.fill" catalog="system" width="128" height="94"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

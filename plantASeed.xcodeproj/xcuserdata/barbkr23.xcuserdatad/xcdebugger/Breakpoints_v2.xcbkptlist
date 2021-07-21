@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "FB230BAF-3D4C-485F-94FA-17D8CEF8C6BF"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3C08803A-CF51-4DFB-844B-642BFDA8B7E0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "plantASeed/CameraViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "3C08803A-CF51-4DFB-844B-642BFDA8B7E0 - 3f91edabb7448797"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "plantASeed.CameraViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; plantASeed.CameraViewController"
+                  moduleName = "plantASeed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/barbkr23/Desktop/plantASeed/plantASeed/CameraViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "3C08803A-CF51-4DFB-844B-642BFDA8B7E0 - c6b7b17b0aec2858"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "plantASeed.CameraViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; plantASeed.CameraViewController"
+                  moduleName = "plantASeed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/barbkr23/Desktop/plantASeed/plantASeed/CameraViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "3C08803A-CF51-4DFB-844B-642BFDA8B7E0 - 229ec26331cc96d8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "plantASeed.CameraViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;plantASeed.CameraViewController&gt;"
+                  moduleName = "plantASeed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/barbkr23/Desktop/plantASeed/plantASeed/CameraViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "3C08803A-CF51-4DFB-844B-642BFDA8B7E0 - 821d4fd3ce464457"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "plantASeed.CameraViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;plantASeed.CameraViewController&gt;"
+                  moduleName = "plantASeed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/barbkr23/Desktop/plantASeed/plantASeed/CameraViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "3C08803A-CF51-4DFB-844B-642BFDA8B7E0 - a1e6117c504e9a5b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "plantASeed.CameraViewController.__deallocating_deinit"
+                  moduleName = "plantASeed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/barbkr23/Desktop/plantASeed/plantASeed/CameraViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

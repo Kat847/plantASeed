@@ -14,6 +14,7 @@
 		A8B8C51226A72DFF0013E0EB /* plantASeed.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8B8C51026A72DFF0013E0EB /* plantASeed.xcdatamodeld */; };
 		A8B8C51426A72E060013E0EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8B8C51326A72E060013E0EB /* Assets.xcassets */; };
 		A8B8C51726A72E060013E0EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8B8C51526A72E060013E0EB /* LaunchScreen.storyboard */; };
+		A8B8C51F26A8C55B0013E0EB /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B8C51E26A8C55B0013E0EB /* CameraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		A8B8C51326A72E060013E0EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8B8C51626A72E060013E0EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8B8C51826A72E060013E0EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8B8C51E26A8C55B0013E0EB /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				A8B8C50926A72DFF0013E0EB /* SceneDelegate.swift */,
 				A8B8C50B26A72DFF0013E0EB /* ViewController.swift */,
 				A8B8C50D26A72DFF0013E0EB /* Main.storyboard */,
+				A8B8C51E26A8C55B0013E0EB /* CameraViewController.swift */,
 				A8B8C51326A72E060013E0EB /* Assets.xcassets */,
 				A8B8C51526A72E060013E0EB /* LaunchScreen.storyboard */,
 				A8B8C51826A72E060013E0EB /* Info.plist */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8B8C51226A72DFF0013E0EB /* plantASeed.xcdatamodeld in Sources */,
+				A8B8C51F26A8C55B0013E0EB /* CameraViewController.swift in Sources */,
 				A8B8C50C26A72DFF0013E0EB /* ViewController.swift in Sources */,
 				A8B8C50826A72DFF0013E0EB /* AppDelegate.swift in Sources */,
 				A8B8C50A26A72DFF0013E0EB /* SceneDelegate.swift in Sources */,
