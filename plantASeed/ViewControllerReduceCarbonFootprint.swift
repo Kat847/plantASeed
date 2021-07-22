@@ -18,7 +18,7 @@ class ViewControllerReduceCarbonFootprint: UIViewController {
     @IBAction func buttonPressedCarbonPetition(_ sender: Any) {
         UIApplication.shared.open(URL (string: "https://www.change.org/t/carbon-emissions-en-us")! as URL, options: [:], completionHandler: nil)
     }
-    
+    //hi
     
     
     /*
