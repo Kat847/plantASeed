@@ -21,6 +21,7 @@
 		A8B8C51426A72E060013E0EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8B8C51326A72E060013E0EB /* Assets.xcassets */; };
 		A8B8C51726A72E060013E0EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8B8C51526A72E060013E0EB /* LaunchScreen.storyboard */; };
 		A8B8C51F26A8C55B0013E0EB /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B8C51E26A8C55B0013E0EB /* CameraViewController.swift */; };
+		A8C665A826A9B9A90062616C /* aAtomicMd.otf in Resources */ = {isa = PBXBuildFile; fileRef = A8C665A626A9B6BD0062616C /* aAtomicMd.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		A8B8C51626A72E060013E0EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8B8C51826A72E060013E0EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8B8C51E26A8C55B0013E0EB /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		A8C665A626A9B6BD0062616C /* aAtomicMd.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = aAtomicMd.otf; path = ../../../Downloads/a_atomic_md/aAtomicMd.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				A8B8C51326A72E060013E0EB /* Assets.xcassets */,
 				A8B8C51526A72E060013E0EB /* LaunchScreen.storyboard */,
 				A8B8C51826A72E060013E0EB /* Info.plist */,
+				A8C665A626A9B6BD0062616C /* aAtomicMd.otf */,
 				A8B8C51026A72DFF0013E0EB /* plantASeed.xcdatamodeld */,
 			);
 			path = plantASeed;
@@ -151,6 +154,7 @@
 				A8B8C51726A72E060013E0EB /* LaunchScreen.storyboard in Resources */,
 				A8B8C51426A72E060013E0EB /* Assets.xcassets in Resources */,
 				A8B8C50F26A72DFF0013E0EB /* Main.storyboard in Resources */,
+				A8C665A826A9B9A90062616C /* aAtomicMd.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
