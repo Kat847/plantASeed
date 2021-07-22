@@ -96,47 +96,45 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Wildlife" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aI4-wq-Q58">
-                                <rect key="frame" x="141" y="93" width="132" height="51"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="wildlife" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aI4-wq-Q58">
+                                <rect key="frame" x="125" y="100" width="158" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="42"/>
+                                <color key="textColor" red="0.30539223580000002" green="0.2254696101" blue="0.027930229010000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3cl-me-kMh">
-                                <rect key="frame" x="20" y="20" width="52" height="49"/>
+                                <rect key="frame" x="20" y="20" width="72" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Back"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="24"/>
+                                <state key="normal" title="back">
+                                    <color key="titleColor" red="0.30539223582474229" green="0.22546961008819741" blue="0.027930229011160306" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                                 <connections>
                                     <segue destination="h6U-lA-zzS" kind="show" id="BfD-0l-BNi"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Podcasts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rwu-vC-hH6">
-                                <rect key="frame" x="169" y="199" width="71" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="podcasts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rwu-vC-hH6">
+                                <rect key="frame" x="133" y="189" width="142" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="30"/>
+                                <color key="textColor" red="0.30539223580000002" green="0.2254696101" blue="0.027930229010000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Documentaries" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DRw-LV-Mrm">
-                                <rect key="frame" x="146" y="394" width="116" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="documentaries" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DRw-LV-Mrm">
+                                <rect key="frame" x="91" y="384" width="232" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Articles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eVz-Op-ivz">
-                                <rect key="frame" x="175" y="584" width="58" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="30"/>
+                                <color key="textColor" red="0.30539223580000002" green="0.2254696101" blue="0.027930229010000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tfX-qe-XKs">
                                 <rect key="frame" x="20" y="228" width="385" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="What Can Animal Law Learn From Environmental Law? | People Places Planet Podcast (30 Minutes)"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="15"/>
+                                <state key="normal" title="What Can Animal Law Learn From Environmental Law? | People Places Planet Podcast (30 Minutes)">
+                                    <color key="titleColor" red="0.30539223580000002" green="0.2254696101" blue="0.027930229010000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                                 <connections>
                                     <action selector="buttonPressedPod1:" destination="G34-qj-fOh" eventType="touchUpInside" id="NJE-V6-mFT"/>
                                     <action selector="buttonPressedPod1:" destination="fTV-dB-XYF" eventType="touchUpInside" id="etE-8X-g7P"/>
@@ -146,8 +144,10 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yRW-nC-yLb">
                                 <rect key="frame" x="17" y="269" width="388" height="81"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="15"/>
                                 <state key="normal">
                                     <string key="title">Nantucket Island’s Coskata-Coatue Wildlife Refuge: A Brief Ecological and Cultural History and How it’s Adapting to Climate Change – Episode 1| America Adapts - The Climate Change Podcast (1 Hour 20 Minutes)</string>
+                                    <color key="titleColor" red="0.30539223580000002" green="0.2254696101" blue="0.027930229010000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <action selector="buttonPressedPod2:" destination="G34-qj-fOh" eventType="touchUpInside" id="Hy7-6W-VBI"/>
@@ -158,7 +158,10 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aNm-B5-nGa">
                                 <rect key="frame" x="0.0" y="423" width="409" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Our Planet From Deserts to Grasslands | Netflix (1 Hour)"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="15"/>
+                                <state key="normal" title="Our Planet From Deserts to Grasslands | Netflix (1 Hour)">
+                                    <color key="titleColor" red="0.30539223580000002" green="0.2254696101" blue="0.027930229010000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                                 <connections>
                                     <action selector="buttonPressedDoc1:" destination="fTV-dB-XYF" eventType="touchUpInside" id="BGh-oO-ySG"/>
                                     <action selector="buttonPressedDoc1:" destination="G34-qj-fOh" eventType="touchUpInside" id="HY7-1Z-hsI"/>
@@ -168,7 +171,10 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YYI-rx-oxi">
                                 <rect key="frame" x="4" y="461" width="401" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Our Planet | Netflix (50 Minutes, 8 Episodes)"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="15"/>
+                                <state key="normal" title="Our Planet | Netflix (50 Minutes, 8 Episodes)">
+                                    <color key="titleColor" red="0.30539223580000002" green="0.2254696101" blue="0.027930229010000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                                 <connections>
                                     <action selector="buttonPressed2:" destination="fTV-dB-XYF" eventType="touchUpInside" id="0J1-bn-U3y"/>
                                     <action selector="buttonPressedDoc2:" destination="G34-qj-fOh" eventType="touchUpInside" id="uzs-ID-1N6"/>
@@ -178,9 +184,11 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RVW-gz-rry">
                                 <rect key="frame" x="17" y="611" width="388" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="15"/>
                                 <state key="normal">
                                     <string key="title">The 11 Most Endangered Animals and How You Can Help Them | Lady Freethinker
 </string>
+                                    <color key="titleColor" red="0.30539223580000002" green="0.2254696101" blue="0.027930229010000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <action selector="buttonPressedArt1:" destination="fTV-dB-XYF" eventType="touchUpInside" id="To8-YA-7K4"/>
@@ -191,16 +199,26 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WkY-R0-cZb">
                                 <rect key="frame" x="14" y="655" width="395" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Fighting for a Wild Tomorrow Today | Wild Tomorrow Fund"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="15"/>
+                                <state key="normal" title="Fighting for a Wild Tomorrow Today | Wild Tomorrow Fund">
+                                    <color key="titleColor" red="0.30539223580000002" green="0.2254696101" blue="0.027930229010000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                                 <connections>
                                     <action selector="buttonPressedArt2:" destination="G34-qj-fOh" eventType="touchUpInside" id="URD-gh-HVf"/>
                                     <action selector="buttonPressedArt2:" destination="fTV-dB-XYF" eventType="touchUpInside" id="bcA-Bl-J6C"/>
                                     <action selector="buttonPressedArticles1:" destination="zhS-fu-YW6" eventType="touchUpInside" id="Y7i-nt-oc2"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="articles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eVz-Op-ivz">
+                                <rect key="frame" x="148" y="572" width="113" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="30"/>
+                                <color key="textColor" red="0.30539223580000002" green="0.2254696101" blue="0.027930229010000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="X58-0O-guB"/>
-                        <color key="backgroundColor" red="0.68406635520000003" green="0.7835779786" blue="0.7808268666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.89803922179999995" green="0.9098039269" blue="0.71372550729999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="zqq-5i-Zbb"/>
                 </viewController>
@@ -217,39 +235,44 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="daT-fo-PpP">
-                                <rect key="frame" x="20" y="20" width="52" height="51"/>
+                                <rect key="frame" x="20" y="20" width="67" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Back"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="24"/>
+                                <state key="normal" title="back">
+                                    <color key="titleColor" red="0.079664315400000005" green="0.17251425079999999" blue="0.24355670099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                                 <connections>
                                     <segue destination="h6U-lA-zzS" kind="show" id="b5q-lF-QfK"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Podcasts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Fv-67-jDk">
-                                <rect key="frame" x="172" y="228" width="71" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="podcasts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Fv-67-jDk">
+                                <rect key="frame" x="136" y="218" width="142" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="30"/>
+                                <color key="textColor" red="0.079664315400000005" green="0.17251425079999999" blue="0.24355670099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Documentaries" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rIe-04-EdX">
-                                <rect key="frame" x="149" y="423" width="116" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="documentaries" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rIe-04-EdX">
+                                <rect key="frame" x="96" y="413" width="232" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="30"/>
+                                <color key="textColor" red="0.079664315400000005" green="0.17251425079999999" blue="0.24355670099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Articles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i9W-hf-IAa">
-                                <rect key="frame" x="178" y="613" width="58" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="articles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i9W-hf-IAa">
+                                <rect key="frame" x="152" y="603" width="113" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="30"/>
+                                <color key="textColor" red="0.079664315400000005" green="0.17251425079999999" blue="0.24355670099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XDc-BF-2TK">
                                 <rect key="frame" x="7" y="257" width="401" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="The Great Pacific Garbage Patch | National Ocean Service (10 Minutes)"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="15"/>
+                                <state key="normal" title="The Great Pacific Garbage Patch | National Ocean Service (10 Minutes)">
+                                    <color key="titleColor" red="0.079664315400000005" green="0.17251425079999999" blue="0.24355670099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                                 <connections>
                                     <action selector="buttonPressedPodcasts1:" destination="zhS-fu-YW6" eventType="touchUpInside" id="mb2-SW-8uV"/>
                                 </connections>
@@ -257,7 +280,10 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Hl-l1-Jmb">
                                 <rect key="frame" x="20" y="298" width="376" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="TIL about sea level rise, part 1 | TILclimate (15 Minutes)"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="15"/>
+                                <state key="normal" title="TIL about sea level rise, part 1 | TILclimate (15 Minutes)">
+                                    <color key="titleColor" red="0.079664315400000005" green="0.17251425079999999" blue="0.24355670099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                                 <connections>
                                     <action selector="buttonPressedPodcasts2:" destination="zhS-fu-YW6" eventType="touchUpInside" id="1n4-4m-qHs"/>
                                 </connections>
@@ -265,39 +291,43 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CSs-Rb-kc4">
                                 <rect key="frame" x="19" y="338" width="378" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="TIL about sea level rise, part 2 | TILclimate (15 Minutes)"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="15"/>
+                                <state key="normal" title="TIL about sea level rise, part 2 | TILclimate (15 Minutes)">
+                                    <color key="titleColor" red="0.079664315400000005" green="0.17251425079999999" blue="0.24355670099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                                 <connections>
                                     <action selector="buttonPressed3:" destination="zhS-fu-YW6" eventType="touchUpInside" id="oe3-oJ-1M2"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZJm-P9-eFj">
-                                <rect key="frame" x="7" y="452" width="401" height="43"/>
+                                <rect key="frame" x="8" y="452" width="401" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Plastic Ocean | United Nations (10 Minutes)"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="15"/>
+                                <state key="normal" title="Plastic Ocean | United Nations (10 Minutes)">
+                                    <color key="titleColor" red="0.079664315400000005" green="0.17251425079999999" blue="0.24355670099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                                 <connections>
                                     <action selector="buttonPressedDocumentaries1:" destination="zhS-fu-YW6" eventType="touchUpInside" id="Zr5-WS-JXw"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Re-zX-Xvo">
-                                <rect key="frame" x="19" y="490" width="389" height="43"/>
+                                <rect key="frame" x="19" y="482" width="389" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="The Plastic Problem | A PBS NewsHour Documentary (60 Minutes)"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="15"/>
+                                <state key="normal" title="The Plastic Problem | A PBS NewsHour Documentary (60 Minutes)">
+                                    <color key="titleColor" red="0.079664315400000005" green="0.17251425079999999" blue="0.24355670099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                                 <connections>
                                     <action selector="buttonPressedDocumentaries2:" destination="zhS-fu-YW6" eventType="touchUpInside" id="91a-6t-DLT"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RjY-0N-hPU">
-                                <rect key="frame" x="7" y="522" width="401" height="43"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="A Plastic Ocean | Netflix (1 Hour 40 Minutes) "/>
-                                <connections>
-                                    <action selector="buttonPressedDocumentaries3:" destination="zhS-fu-YW6" eventType="touchUpInside" id="5e6-RE-IMW"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xYd-FS-89z">
-                                <rect key="frame" x="20" y="642" width="374" height="43"/>
+                                <rect key="frame" x="20" y="642" width="374" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="“Ocean Protecting Marine Ecosystems and Livelihoods | Environmental Justice Foundation”"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="15"/>
+                                <state key="normal" title="“Ocean Protecting Marine Ecosystems and Livelihoods | Environmental Justice Foundation”">
+                                    <color key="titleColor" red="0.079664315400000005" green="0.17251425079999999" blue="0.24355670099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                                 <connections>
                                     <action selector="buttonPressedArticles1:" destination="zhS-fu-YW6" eventType="touchUpInside" id="Txg-Ga-6JT"/>
                                 </connections>
@@ -306,16 +336,20 @@
                                 <rect key="frame" x="45" y="111" width="337" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="42"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.079664315400000005" green="0.17251425079999999" blue="0.24355670099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dKg-mr-fHP">
-                                <rect key="frame" x="88" y="188" width="42" height="21"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RjY-0N-hPU">
+                                <rect key="frame" x="7" y="518" width="401" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="15"/>
+                                <state key="normal" title="A Plastic Ocean | Netflix (1 Hour 40 Minutes) ">
+                                    <color key="titleColor" red="0.079664315400000005" green="0.17251425079999999" blue="0.24355670099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressedDocumentaries3:" destination="zhS-fu-YW6" eventType="touchUpInside" id="5e6-RE-IMW"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="MBD-U8-oWB"/>
                         <color key="backgroundColor" red="0.63582604934026965" green="0.79094757696594853" blue="0.79004410546520309" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -334,56 +368,57 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Forests " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eU4-br-LTO">
-                                <rect key="frame" x="137" y="77" width="141" height="51"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="forests " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eU4-br-LTO">
+                                <rect key="frame" x="129" y="78" width="157" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="42"/>
+                                <color key="textColor" red="0.20417920980000001" green="0.29277146459999998" blue="0.2183737342" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ggG-5G-gWf">
-                                <rect key="frame" x="20" y="20" width="52" height="41"/>
+                                <rect key="frame" x="17" y="24" width="63" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Back"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="24"/>
+                                <state key="normal" title="back">
+                                    <color key="titleColor" red="0.20417920980000001" green="0.29277146459999998" blue="0.2183737342" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                                 <connections>
                                     <segue destination="h6U-lA-zzS" kind="show" id="4TS-yv-a46"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Podcasts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XRK-kP-CYc">
-                                <rect key="frame" x="172" y="193" width="71" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="podcasts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XRK-kP-CYc">
+                                <rect key="frame" x="136" y="191" width="142" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="30"/>
+                                <color key="textColor" red="0.20417920980000001" green="0.29277146459999998" blue="0.2183737342" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Documentaries" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1jw-xK-6ba">
-                                <rect key="frame" x="149" y="388" width="116" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="documentaries" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1jw-xK-6ba">
+                                <rect key="frame" x="91" y="378" width="232" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Articles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dyl-j9-p3F">
-                                <rect key="frame" x="178" y="578" width="58" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="30"/>
+                                <color key="textColor" red="0.20417920980000001" green="0.29277146459999998" blue="0.2183737342" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="59N-Ig-O8X">
-                                <rect key="frame" x="20" y="222" width="388" height="43"/>
+                                <rect key="frame" x="13" y="230" width="388" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Trees! With Joe Middleton from Woodland Trust | For What It's Earth (30 Minutes)"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="15"/>
+                                <state key="normal" title="Trees! With Joe Middleton from Woodland Trust | For What It's Earth (30 Minutes)">
+                                    <color key="titleColor" red="0.20417920979806375" green="0.29277146464646464" blue="0.21837373417879968" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                                 <connections>
                                     <action selector="buttonPressedPod1:" destination="fTV-dB-XYF" eventType="touchUpInside" id="woQ-st-XXh"/>
                                     <action selector="buttonPressedPodcasts1:" destination="zhS-fu-YW6" eventType="touchUpInside" id="oNJ-Fu-QOj"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KwD-A6-CIB">
-                                <rect key="frame" x="20" y="263" width="388" height="43"/>
+                                <rect key="frame" x="13" y="263" width="388" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Why are we failing to protect the Amazon rainforest? | The Climate Question (30 Minutes)"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="15"/>
+                                <state key="normal" title="Why are we failing to protect the Amazon rainforest? | The Climate Question (30 Minutes)">
+                                    <color key="titleColor" red="0.20417920979806375" green="0.29277146464646464" blue="0.21837373417879968" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                                 <connections>
                                     <action selector="buttonPressedPod2:" destination="fTV-dB-XYF" eventType="touchUpInside" id="Adt-mX-B7V"/>
                                     <action selector="buttonPressedPodcasts2:" destination="zhS-fu-YW6" eventType="touchUpInside" id="ahv-Jf-epY"/>
@@ -392,7 +427,10 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uMQ-Rg-Q1m">
                                 <rect key="frame" x="3" y="417" width="409" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="From rainforest to charcoal | DW Documentary (45 Minutes)"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="15"/>
+                                <state key="normal" title="From rainforest to charcoal | DW Documentary (45 Minutes)">
+                                    <color key="titleColor" red="0.20417920980000001" green="0.29277146459999998" blue="0.2183737342" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                                 <connections>
                                     <action selector="buttonPressedDoc1:" destination="fTV-dB-XYF" eventType="touchUpInside" id="bot-Jb-naA"/>
                                     <action selector="buttonPressedDocumentaries1:" destination="zhS-fu-YW6" eventType="touchUpInside" id="Lgu-Li-8HZ"/>
@@ -401,7 +439,10 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oZb-k1-mCb">
                                 <rect key="frame" x="7" y="455" width="401" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="The Destruction of the Amazon Forest, Explained | Vox (15 Minutes)"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="17"/>
+                                <state key="normal" title="The Destruction of the Amazon Forest, Explained | Vox (15 Minutes)">
+                                    <color key="titleColor" red="0.20417920980000001" green="0.29277146459999998" blue="0.2183737342" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                                 <connections>
                                     <action selector="buttonPressed2:" destination="fTV-dB-XYF" eventType="touchUpInside" id="8gM-dD-xQR"/>
                                     <action selector="buttonPressedDocumentaries2:" destination="zhS-fu-YW6" eventType="touchUpInside" id="aFb-SU-wQ9"/>
@@ -410,7 +451,10 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n3B-8L-ny1">
                                 <rect key="frame" x="20" y="607" width="374" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Deforestation: Facts, Causes &amp; Effects | Live Science"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="15"/>
+                                <state key="normal" title="Deforestation: Facts, Causes &amp; Effects | Live Science">
+                                    <color key="titleColor" red="0.20417920980000001" green="0.29277146459999998" blue="0.2183737342" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                                 <connections>
                                     <action selector="buttonPressedArt1:" destination="fTV-dB-XYF" eventType="touchUpInside" id="t1S-IC-EyO"/>
                                     <action selector="buttonPressedArticles1:" destination="zhS-fu-YW6" eventType="touchUpInside" id="LbF-Zr-fmr"/>
@@ -419,15 +463,25 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N9r-QZ-Ns9">
                                 <rect key="frame" x="20" y="649" width="388" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Going in the Wrong Direction: More Tropical Forest Loss in 2019 | The New York Times"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="15"/>
+                                <state key="normal" title="Going in the Wrong Direction: More Tropical Forest Loss in 2019 | The New York Times">
+                                    <color key="titleColor" red="0.20417920980000001" green="0.29277146459999998" blue="0.2183737342" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                                 <connections>
                                     <action selector="buttonPressedArt2:" destination="fTV-dB-XYF" eventType="touchUpInside" id="o2s-Gn-ctH"/>
                                     <action selector="buttonPressedArticles1:" destination="zhS-fu-YW6" eventType="touchUpInside" id="fow-Gb-BoZ"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="articles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dyl-j9-p3F">
+                                <rect key="frame" x="151" y="568" width="113" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="30"/>
+                                <color key="textColor" red="0.20417920980000001" green="0.29277146459999998" blue="0.2183737342" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="enb-00-IIJ"/>
-                        <color key="backgroundColor" red="0.66267007590000004" green="0.78652864690000002" blue="0.78394061329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.70588237050000002" green="0.76862752440000004" blue="0.68235301969999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="266-af-5Qf"/>
                 </viewController>
@@ -509,44 +563,52 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mSp-63-7d8">
-                                <rect key="frame" x="20" y="20" width="52" height="41"/>
+                                <rect key="frame" x="15" y="23" width="63" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Back"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="24"/>
+                                <state key="normal" title="back">
+                                    <color key="titleColor" red="0.28055952334334117" green="0.36949573861919194" blue="0.26391417936695888" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="pTX-1P-gOF"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="camera.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="OfB-LH-1sw">
-                                <rect key="frame" x="29" y="207.5" width="356" height="194"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.44607843137254899" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EvI-V8-SaJ">
-                                <rect key="frame" x="110" y="451" width="194" height="51"/>
+                                <rect key="frame" x="121" y="459" width="174" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                <state key="normal" title="Take A Picture"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="25"/>
+                                <state key="normal" title="Take A Picture">
+                                    <color key="titleColor" red="0.2805595233" green="0.36949573860000001" blue="0.2639141794" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                                 <connections>
                                     <action selector="takeAPicture:" destination="1ad-bQ-Bn7" eventType="touchUpInside" id="daR-31-iuZ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H0n-kG-ljq">
-                                <rect key="frame" x="64" y="537" width="287" height="51"/>
+                                <rect key="frame" x="76" y="545" width="265" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                <state key="normal" title="Choose From Library"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="25"/>
+                                <state key="normal" title="Choose From Library">
+                                    <color key="titleColor" red="0.2805595233" green="0.36949573860000001" blue="0.2639141794" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                                 <connections>
                                     <action selector="chooseFromLibrary:" destination="1ad-bQ-Bn7" eventType="touchUpInside" id="TXj-6v-Ynk"/>
                                     <action selector="choosePhotoTap:" destination="C9v-aA-8eB" eventType="touchUpInside" id="6zt-om-D7v"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eaS-bh-gim">
-                                <rect key="frame" x="80" y="639" width="255" height="51"/>
+                                <rect key="frame" x="95" y="647" width="227" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                <state key="normal" title="See all photos --&gt; "/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="25"/>
+                                <state key="normal" title="See all photos --&gt; ">
+                                    <color key="titleColor" red="0.2805595233" green="0.36949573860000001" blue="0.2639141794" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="camera.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="OfB-LH-1sw">
+                                <rect key="frame" x="29" y="192.5" width="356" height="194"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.44607843137254899" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="luP-yh-gVC"/>
                         <color key="backgroundColor" red="0.72578185799999995" green="0.75503653289999995" blue="0.69127774239999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -645,103 +707,114 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Reduce Plastic Waste" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GE4-pp-Lzi">
-                                <rect key="frame" x="14" y="108" width="386" height="51"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="reduce plastic waste" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GE4-pp-Lzi">
+                                <rect key="frame" x="27" y="99" width="347" height="112"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="42"/>
+                                <color key="textColor" red="0.079664315400000005" green="0.17251425079999999" blue="0.24355670099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WMA-kd-Gct">
-                                <rect key="frame" x="20" y="20" width="52" height="41"/>
+                                <rect key="frame" x="15" y="23" width="63" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Back"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="24"/>
+                                <state key="normal" title="back">
+                                    <color key="titleColor" red="0.079664315400000005" green="0.17251425079999999" blue="0.24355670099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                                 <connections>
                                     <segue destination="vMg-a9-sXr" kind="show" id="XWk-w2-yck"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Use a metal/reusable water bottle" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fds-2n-Ab0">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="use a metal/reusable water bottle" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fds-2n-Ab0">
                                 <rect key="frame" x="30" y="189" width="364" height="99"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="17"/>
+                                <color key="textColor" red="0.079664315400000005" green="0.17251425079999999" blue="0.24355670099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o4Y-1G-Cu1">
                                 <rect key="frame" x="30" y="258" width="374" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Bring reusable bags with you to the grocery store
+                                <string key="text">bring reusable bags with you to the grocery store
 </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="17"/>
+                                <color key="textColor" red="0.079664315400000005" green="0.17251425079999999" blue="0.24355670099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PAP-sZ-3h5">
-                                <rect key="frame" x="30" y="422" width="355" height="41"/>
+                                <rect key="frame" x="30" y="422" width="364" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Ask for nonplastic alternatives when eating out
+                                <string key="text">ask for nonplastic alternatives when eating out
 </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="17"/>
+                                <color key="textColor" red="0.079664315400000005" green="0.17251425079999999" blue="0.24355670099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bh0-Ju-rKK">
                                 <rect key="frame" x="30" y="458" width="370" height="99"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Reduce the amount of online shopping you do, packaging uses lots of plastic you may not even be aware of. Instead, try to shop locally close to home!</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <string key="text">reduce the amount of online shopping you do, packaging uses lots of plastic you may not even be aware of. instead, try to shop locally close to home!</string>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="17"/>
+                                <color key="textColor" red="0.079664315400000005" green="0.17251425079999999" blue="0.24355670099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Avoid fast fashion. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cBv-Xf-PZU">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="avoid fast fashion. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cBv-Xf-PZU">
                                 <rect key="frame" x="27" y="544" width="364" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="17"/>
+                                <color key="textColor" red="0.079664315400000005" green="0.17251425079999999" blue="0.24355670099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Replace house and life ammenaties with reusable options " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KhR-7J-z32">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="replace house and life ammenaties with reusable options " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KhR-7J-z32">
                                 <rect key="frame" x="27" y="601" width="367" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="17"/>
+                                <color key="textColor" red="0.079664315400000005" green="0.17251425079999999" blue="0.24355670099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZuC-nO-Lx6">
-                                <rect key="frame" x="27" y="652" width="262" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Buy food with compostable packaging"/>
-                                <connections>
-                                    <action selector="buttonPressedCarbonPetition:" destination="p0x-on-uSu" eventType="touchUpInside" id="pgL-2A-47V"/>
-                                    <action selector="buttonPressedPlasticWasteFood:" destination="Oz1-2W-Qbb" eventType="touchUpInside" id="hkh-Gq-R1i"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G5z-BC-LmV">
                                 <rect key="frame" x="30" y="296" width="374" height="108"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Shop at places with zero waste! Groceries specifically for reducing single use plastic are located all around the U.S! Oftentimes, chains like Whole Foods will have a section specifically for zero waste.
+                                <string key="text">shop at places with zero waste! groceries specifically for reducing single use plastic are located all around the U.S! oftentimes, chains like whole foods will have a section specifically for zero waste.
 </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="17"/>
+                                <color key="textColor" red="0.079664315400000005" green="0.17251425079999999" blue="0.24355670099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rfd-9l-24L">
-                                <rect key="frame" x="27" y="678" width="307" height="30"/>
+                                <rect key="frame" x="26" y="700" width="346" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Shop reusable cleaning, kitchen, and beauty "/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="15"/>
+                                <state key="normal" title="Shop reusable cleaning, kitchen, and beauty ">
+                                    <color key="titleColor" red="0.079664315400000005" green="0.17251425079999999" blue="0.24355670099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                                 <connections>
                                     <action selector="buttonPressedCarbonPetition:" destination="p0x-on-uSu" eventType="touchUpInside" id="Xrh-zo-uhR"/>
                                     <action selector="buttonPressedPlasticWasteCleaningKitchenBeauty:" destination="Oz1-2W-Qbb" eventType="touchUpInside" id="JfB-fO-BnQ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4rL-eQ-p5I">
-                                <rect key="frame" x="27" y="707" width="324" height="30"/>
+                                <rect key="frame" x="26" y="723" width="363" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Everything you will ever need... but eco friendly"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="15"/>
+                                <state key="normal" title="Everything you will ever need... but eco friendly">
+                                    <color key="titleColor" red="0.079664315400000005" green="0.17251425079999999" blue="0.24355670099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                                 <connections>
                                     <action selector="buttonPressedCarbonPetition:" destination="p0x-on-uSu" eventType="touchUpInside" id="CJH-1E-Nbg"/>
                                     <action selector="buttonPressedPlasticWasteEverything:" destination="Oz1-2W-Qbb" eventType="touchUpInside" id="wMe-KQ-Ilj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZuC-nO-Lx6">
+                                <rect key="frame" x="26" y="674" width="297" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="15"/>
+                                <state key="normal" title="Buy food with compostable packaging">
+                                    <color key="titleColor" red="0.079664315400000005" green="0.17251425079999999" blue="0.24355670099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressedCarbonPetition:" destination="p0x-on-uSu" eventType="touchUpInside" id="pgL-2A-47V"/>
+                                    <action selector="buttonPressedPlasticWasteFood:" destination="Oz1-2W-Qbb" eventType="touchUpInside" id="hkh-Gq-R1i"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -762,75 +835,80 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Reduce Carbon Footprint" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nbr-Ow-iCQ">
-                                <rect key="frame" x="14" y="116" width="376" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VQZ-k5-Elq">
-                                <rect key="frame" x="20" y="20" width="52" height="41"/>
+                                <rect key="frame" x="15" y="23" width="63" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Back"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="24"/>
+                                <state key="normal" title="back">
+                                    <color key="titleColor" red="0.079664315400000005" green="0.17251425079999999" blue="0.24355670099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                                 <connections>
                                     <segue destination="vMg-a9-sXr" kind="show" id="4to-xH-6l8"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Turn off electrical appliances when you’re not using them and make sure to do full loads of laundry. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fQ1-yH-ojO">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="turn off electrical appliances when you’re not using them and make sure to do full loads of laundry. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fQ1-yH-ojO">
                                 <rect key="frame" x="22" y="175" width="364" height="99"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="17"/>
+                                <color key="textColor" red="0.079664315400000005" green="0.17251425079999999" blue="0.24355670099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mSI-Lp-fcE">
                                 <rect key="frame" x="22" y="253" width="364" height="99"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Switch to LED lightbulbs! Not only do they last longer and save you money, they also create less of an impact on the environment than normal light bulbs.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <string key="text">switch to LED lightbulbs! not only do they last longer and save you money, they also create less of an impact on the environment than normal light bulbs.</string>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="17"/>
+                                <color key="textColor" red="0.079664315400000005" green="0.17251425079999999" blue="0.24355670099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ride your bike, walk, or carpool when you can!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Qx-ml-gRt">
-                                <rect key="frame" x="22" y="372" width="351" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ride your bike, walk, or carpool when you can!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Qx-ml-gRt">
+                                <rect key="frame" x="22" y="372" width="372" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="17"/>
+                                <color key="textColor" red="0.079664315400000005" green="0.17251425079999999" blue="0.24355670099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zjN-gL-ySG">
                                 <rect key="frame" x="22" y="407" width="370" height="99"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Try to reduce your red meat intake! Instead, try some plant based substitutes.
+                                <string key="text">try to reduce your red meat intake! Instead, try some plant based substitutes.
 </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="17"/>
+                                <color key="textColor" red="0.079664315400000005" green="0.17251425079999999" blue="0.24355670099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Avoid fast fashion. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dFE-tx-39H">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="avoid fast fashion. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dFE-tx-39H">
                                 <rect key="frame" x="22" y="492" width="364" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="17"/>
+                                <color key="textColor" red="0.079664315400000005" green="0.17251425079999999" blue="0.24355670099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sign petitions for companies to start reducing their carbon footprint!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RYj-pP-rTq">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="sign petitions for companies to start reducing their carbon footprint!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RYj-pP-rTq">
                                 <rect key="frame" x="22" y="555" width="370" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="17"/>
+                                <color key="textColor" red="0.079664315400000005" green="0.17251425079999999" blue="0.24355670099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="coH-Xe-9vw">
-                                <rect key="frame" x="22" y="609" width="191" height="30"/>
+                                <rect key="frame" x="21" y="618" width="212" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Press here to sign a petition"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="15"/>
+                                <state key="normal" title="press here to sign a petition">
+                                    <color key="titleColor" red="0.079664315400000005" green="0.17251425079999999" blue="0.24355670099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                                 <connections>
                                     <action selector="buttonPressedCarbonPetition:" destination="p0x-on-uSu" eventType="touchUpInside" id="xiv-kD-F7Z"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="reduce carbon footprint" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nbr-Ow-iCQ">
+                                <rect key="frame" x="21" y="68" width="422" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="42"/>
+                                <color key="textColor" red="0.079664315400000005" green="0.17251425079999999" blue="0.24355670099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="OMQ-9n-dDA"/>
                         <color key="backgroundColor" red="0.69934517149999997" green="0.78042238949999998" blue="0.7775430083" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -839,7 +917,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DU0-Yd-nbn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2574" y="610"/>
+            <point key="canvasLocation" x="2573.913043478261" y="609.375"/>
         </scene>
         <!--View Controller Recipes-->
         <scene sceneID="Drh-fu-lRa">
@@ -849,22 +927,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Recipes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MO5-ys-yK8">
-                                <rect key="frame" x="142" y="101" width="130" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WHW-sx-3BJ">
-                                <rect key="frame" x="20" y="29" width="52" height="41"/>
+                                <rect key="frame" x="15" y="32" width="63" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Back"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="24"/>
+                                <state key="normal" title="back">
+                                    <color key="titleColor" red="0.079664315400000005" green="0.17251425079999999" blue="0.24355670099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                                 <connections>
                                     <segue destination="vMg-a9-sXr" kind="show" id="DfB-Px-ubP"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="recipes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MO5-ys-yK8">
+                                <rect key="frame" x="127" y="110" width="160" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="42"/>
+                                <color key="textColor" red="0.079664315400000005" green="0.17251425079999999" blue="0.24355670099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Mh9-GG-kNp"/>
                         <color key="backgroundColor" red="0.71155101060000003" green="0.77716386319999997" blue="0.77417367699999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -877,9 +957,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="6G4-d5-ceF"/>
-        <segue reference="8da-CK-MmN"/>
-        <segue reference="b5q-lF-QfK"/>
+        <segue reference="DfB-Px-ubP"/>
+        <segue reference="pTX-1P-gOF"/>
+        <segue reference="BfD-0l-BNi"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="camera.fill" catalog="system" width="128" height="94"/>
