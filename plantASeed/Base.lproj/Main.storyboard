@@ -4,6 +4,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -216,6 +217,10 @@
                                 <color key="textColor" red="0.30539223580000002" green="0.2254696101" blue="0.027930229010000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wildlifeImg" translatesAutoresizingMaskIntoConstraints="NO" id="3J6-2O-ZUI">
+                                <rect key="frame" x="14" y="683" width="394" height="162"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="X58-0O-guB"/>
                         <color key="backgroundColor" red="0.89803922179999995" green="0.9098039269" blue="0.71372550729999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -350,6 +355,10 @@
                                     <action selector="buttonPressedDocumentaries3:" destination="zhS-fu-YW6" eventType="touchUpInside" id="5e6-RE-IMW"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-22 at 12.03.56 PM" translatesAutoresizingMaskIntoConstraints="NO" id="ZvN-Kp-O1f">
+                                <rect key="frame" x="-4" y="669" width="424" height="214"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="MBD-U8-oWB"/>
                         <color key="backgroundColor" red="0.63582604934026965" green="0.79094757696594853" blue="0.79004410546520309" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -461,7 +470,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N9r-QZ-Ns9">
-                                <rect key="frame" x="20" y="649" width="388" height="43"/>
+                                <rect key="frame" x="13" y="639" width="388" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="15"/>
                                 <state key="normal" title="Going in the Wrong Direction: More Tropical Forest Loss in 2019 | The New York Times">
@@ -479,6 +488,10 @@
                                 <color key="textColor" red="0.20417920980000001" green="0.29277146459999998" blue="0.2183737342" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="forestsImg" translatesAutoresizingMaskIntoConstraints="NO" id="j29-Q3-dvV">
+                                <rect key="frame" x="-93" y="658" width="600" height="342"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="enb-00-IIJ"/>
                         <color key="backgroundColor" red="0.70588237050000002" green="0.76862752440000004" blue="0.68235301969999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -945,6 +958,30 @@
                                 <color key="textColor" red="0.079664315400000005" green="0.17251425079999999" blue="0.24355670099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B3W-Zo-oQ0">
+                                <rect key="frame" x="71" y="260" width="272" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Mindful Eating: 15 Eco-Friendly Recipes"/>
+                                <connections>
+                                    <segue destination="YB8-1c-9w6" kind="show" id="Hud-pI-n7r"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mac-bz-xAI">
+                                <rect key="frame" x="127" y="353" width="160" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="22 Sustainable Recipes"/>
+                                <connections>
+                                    <segue destination="yd8-xy-4qE" kind="show" id="y6z-jt-b1W"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tuq-hY-vE5">
+                                <rect key="frame" x="95" y="433" width="224" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Healthy and Sustainable Recipes"/>
+                                <connections>
+                                    <segue destination="alW-92-KVB" kind="show" id="90b-BZ-WL5"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Mh9-GG-kNp"/>
                         <color key="backgroundColor" red="0.71155101060000003" green="0.77716386319999997" blue="0.77417367699999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -953,16 +990,113 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hsi-ks-ozS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3362" y="772"/>
+            <point key="canvasLocation" x="3360.8695652173915" y="771.42857142857144"/>
+        </scene>
+        <!--View Controller Recipes1-->
+        <scene sceneID="fU4-RY-6dv">
+            <objects>
+                <viewController id="YB8-1c-9w6" customClass="ViewControllerRecipes1" customModule="plantASeed" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="G8M-9n-Aqc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7fF-o3-sy8">
+                                <rect key="frame" x="20" y="20" width="374" height="768"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="AbE-0P-qO5"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="7fF-o3-sy8" firstAttribute="leading" secondItem="AbE-0P-qO5" secondAttribute="leading" constant="20" id="0Mg-Wu-IcZ"/>
+                            <constraint firstItem="AbE-0P-qO5" firstAttribute="trailing" secondItem="7fF-o3-sy8" secondAttribute="trailing" constant="20" id="BTG-aZ-Tdv"/>
+                            <constraint firstItem="7fF-o3-sy8" firstAttribute="top" secondItem="AbE-0P-qO5" secondAttribute="top" constant="20" id="UTA-SZ-7ar"/>
+                            <constraint firstItem="AbE-0P-qO5" firstAttribute="bottom" secondItem="7fF-o3-sy8" secondAttribute="bottom" constant="20" id="Uf2-hu-WCJ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="cJf-FF-ssE"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2el-YI-w3A" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2990" y="1446"/>
+        </scene>
+        <!--View Controller Recipes2-->
+        <scene sceneID="36h-Uj-Laj">
+            <objects>
+                <viewController id="yd8-xy-4qE" customClass="ViewControllerRecipes2" customModule="plantASeed" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0YF-sM-nxp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TJN-EY-hBl">
+                                <rect key="frame" x="20" y="20" width="374" height="768"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="R9H-CZ-gcz"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="TJN-EY-hBl" firstAttribute="top" secondItem="R9H-CZ-gcz" secondAttribute="top" constant="20" id="6sG-hH-m7q"/>
+                            <constraint firstItem="R9H-CZ-gcz" firstAttribute="trailing" secondItem="TJN-EY-hBl" secondAttribute="trailing" constant="20" id="HEx-yw-sFL"/>
+                            <constraint firstItem="TJN-EY-hBl" firstAttribute="leading" secondItem="R9H-CZ-gcz" secondAttribute="leading" constant="20" id="VNH-df-dSb"/>
+                            <constraint firstItem="R9H-CZ-gcz" firstAttribute="bottom" secondItem="TJN-EY-hBl" secondAttribute="bottom" constant="20" id="xbE-5M-Ksn"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Wbo-yK-UHk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8wf-wV-j9N" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3810" y="1458"/>
+        </scene>
+        <!--View Controller Recipes3-->
+        <scene sceneID="KrM-Md-pYb">
+            <objects>
+                <viewController id="alW-92-KVB" customClass="ViewControllerRecipes3" customModule="plantASeed" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7lH-Tq-rhv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WCH-kO-VY5">
+                                <rect key="frame" x="20" y="20" width="374" height="768"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="GQf-gn-4nr"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="aEm-4v-lXJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zrH-cR-1Y5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3420" y="2123"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="DfB-Px-ubP"/>
         <segue reference="pTX-1P-gOF"/>
-        <segue reference="BfD-0l-BNi"/>
+        <segue reference="b5q-lF-QfK"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="Screen Shot 2021-07-22 at 12.03.56 PM" width="634" height="272"/>
         <image name="camera.fill" catalog="system" width="128" height="94"/>
+        <image name="forestsImg" width="790" height="604"/>
         <image name="logo1" width="2048" height="2048"/>
+        <image name="wildlifeImg" width="1010" height="350"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>

@@ -26,7 +26,7 @@ class ViewControllerWildlife: UIViewController {
     
     
     @IBAction func buttonPressedDoc1(_ sender: Any) {
-        UIApplication.shared.open(URL (string: "https://www.youtube.com/watch?v=XmtXC_n6X6Q ")! as URL, options: [:], completionHandler: nil)
+        UIApplication.shared.open(URL (string: "https://www.youtube.com/watch?v=XmtXC_n6X6Q")! as URL, options: [:], completionHandler: nil)
     }
     
     @IBAction func buttonPressedDoc2(_ sender: Any) {

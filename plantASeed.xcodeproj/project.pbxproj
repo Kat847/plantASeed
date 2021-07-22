@@ -13,6 +13,9 @@
 		A8407D1226A8F795009A54E3 /* ViewControllerReducePlasticWaste.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8407D1126A8F795009A54E3 /* ViewControllerReducePlasticWaste.swift */; };
 		A8407D1426A8F7B3009A54E3 /* ViewControllerReduceCarbonFootprint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8407D1326A8F7B3009A54E3 /* ViewControllerReduceCarbonFootprint.swift */; };
 		A8407D1626A8F7D1009A54E3 /* ViewControllerRecipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8407D1526A8F7D1009A54E3 /* ViewControllerRecipes.swift */; };
+		A8407D1826AA02E8009A54E3 /* ViewControllerRecipes1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8407D1726AA02E8009A54E3 /* ViewControllerRecipes1.swift */; };
+		A8407D1A26AA076F009A54E3 /* ViewControllerRecipes2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8407D1926AA076F009A54E3 /* ViewControllerRecipes2.swift */; };
+		A8407D1C26AA09B7009A54E3 /* ViewControllerRecipes3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8407D1B26AA09B7009A54E3 /* ViewControllerRecipes3.swift */; };
 		A8B8C50826A72DFF0013E0EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B8C50726A72DFF0013E0EB /* AppDelegate.swift */; };
 		A8B8C50A26A72DFF0013E0EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B8C50926A72DFF0013E0EB /* SceneDelegate.swift */; };
 		A8B8C50C26A72DFF0013E0EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B8C50B26A72DFF0013E0EB /* ViewController.swift */; };
@@ -31,6 +34,9 @@
 		A8407D1126A8F795009A54E3 /* ViewControllerReducePlasticWaste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerReducePlasticWaste.swift; sourceTree = "<group>"; };
 		A8407D1326A8F7B3009A54E3 /* ViewControllerReduceCarbonFootprint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerReduceCarbonFootprint.swift; sourceTree = "<group>"; };
 		A8407D1526A8F7D1009A54E3 /* ViewControllerRecipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerRecipes.swift; sourceTree = "<group>"; };
+		A8407D1726AA02E8009A54E3 /* ViewControllerRecipes1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerRecipes1.swift; sourceTree = "<group>"; };
+		A8407D1926AA076F009A54E3 /* ViewControllerRecipes2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerRecipes2.swift; sourceTree = "<group>"; };
+		A8407D1B26AA09B7009A54E3 /* ViewControllerRecipes3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerRecipes3.swift; sourceTree = "<group>"; };
 		A8B8C50426A72DFF0013E0EB /* plantASeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = plantASeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8B8C50726A72DFF0013E0EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8B8C50926A72DFF0013E0EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +84,9 @@
 				A8B8C50926A72DFF0013E0EB /* SceneDelegate.swift */,
 				A8B8C50B26A72DFF0013E0EB /* ViewController.swift */,
 				A8B8C50D26A72DFF0013E0EB /* Main.storyboard */,
+				A8407D1B26AA09B7009A54E3 /* ViewControllerRecipes3.swift */,
+				A8407D1926AA076F009A54E3 /* ViewControllerRecipes2.swift */,
+				A8407D1726AA02E8009A54E3 /* ViewControllerRecipes1.swift */,
 				A8407D1526A8F7D1009A54E3 /* ViewControllerRecipes.swift */,
 				A8407D1326A8F7B3009A54E3 /* ViewControllerReduceCarbonFootprint.swift */,
 				A8407D1126A8F795009A54E3 /* ViewControllerReducePlasticWaste.swift */,
@@ -167,9 +176,12 @@
 			files = (
 				A8407D1226A8F795009A54E3 /* ViewControllerReducePlasticWaste.swift in Sources */,
 				A8B8C51226A72DFF0013E0EB /* plantASeed.xcdatamodeld in Sources */,
+				A8407D1826AA02E8009A54E3 /* ViewControllerRecipes1.swift in Sources */,
 				A8407D0C26A8F705009A54E3 /* ViewControllerOceans.swift in Sources */,
 				A8407D1426A8F7B3009A54E3 /* ViewControllerReduceCarbonFootprint.swift in Sources */,
 				A8B8C51F26A8C55B0013E0EB /* CameraViewController.swift in Sources */,
+				A8407D1C26AA09B7009A54E3 /* ViewControllerRecipes3.swift in Sources */,
+				A8407D1A26AA076F009A54E3 /* ViewControllerRecipes2.swift in Sources */,
 				A8407D0E26A8F72B009A54E3 /* ViewControllerForests.swift in Sources */,
 				A8407D1626A8F7D1009A54E3 /* ViewControllerRecipes.swift in Sources */,
 				A8B8C50C26A72DFF0013E0EB /* ViewController.swift in Sources */,

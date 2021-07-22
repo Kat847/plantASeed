@@ -20,11 +20,11 @@ class ViewControllerReducePlasticWaste: UIViewController {
     }
     
     @IBAction func buttonPressedPlasticWasteCleaningKitchenBeauty(_ sender: Any) {
-        UIApplication.shared.open(URL (string: "https://wildminimalist.com/ ")! as URL, options: [:], completionHandler: nil)
+        UIApplication.shared.open(URL (string: "https://wildminimalist.com/")! as URL, options: [:], completionHandler: nil)
     }
     
     @IBAction func buttonPressedPlasticWasteEverything(_ sender: Any) {
-        UIApplication.shared.open(URL (string: "https://zerowastestore.com/pages/brands ")! as URL, options: [:], completionHandler: nil)
+        UIApplication.shared.open(URL (string: "https://zerowastestore.com/pages/brands")! as URL, options: [:], completionHandler: nil)
     }
     
     
