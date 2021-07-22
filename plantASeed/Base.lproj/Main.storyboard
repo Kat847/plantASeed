@@ -76,10 +76,10 @@
             </objects>
             <point key="canvasLocation" x="900" y="-181"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller Wildlife-->
         <scene sceneID="seq-T5-sDU">
             <objects>
-                <viewController id="G34-qj-fOh" sceneMemberID="viewController">
+                <viewController id="G34-qj-fOh" customClass="ViewControllerWildlife" customModule="plantASeed" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DsW-SR-66a">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -100,6 +100,92 @@
                                     <segue destination="h6U-lA-zzS" kind="show" id="BfD-0l-BNi"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Podcasts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rwu-vC-hH6">
+                                <rect key="frame" x="169" y="199" width="71" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Documentaries" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DRw-LV-Mrm">
+                                <rect key="frame" x="146" y="394" width="116" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Articles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eVz-Op-ivz">
+                                <rect key="frame" x="175" y="584" width="58" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tfX-qe-XKs">
+                                <rect key="frame" x="20" y="228" width="385" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="What Can Animal Law Learn From Environmental Law? | People Places Planet Podcast (30 Minutes)"/>
+                                <connections>
+                                    <action selector="buttonPressedPod1:" destination="G34-qj-fOh" eventType="touchUpInside" id="NJE-V6-mFT"/>
+                                    <action selector="buttonPressedPod1:" destination="fTV-dB-XYF" eventType="touchUpInside" id="etE-8X-g7P"/>
+                                    <action selector="buttonPressedPodcasts1:" destination="zhS-fu-YW6" eventType="touchUpInside" id="AHl-Cc-WIv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yRW-nC-yLb">
+                                <rect key="frame" x="17" y="269" width="388" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <string key="title">Nantucket Island’s Coskata-Coatue Wildlife Refuge: A Brief Ecological and Cultural History and How it’s Adapting to Climate Change – Episode 1| America Adapts - The Climate Change Podcast (1 Hour 20 Minutes)</string>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressedPod2:" destination="G34-qj-fOh" eventType="touchUpInside" id="Hy7-6W-VBI"/>
+                                    <action selector="buttonPressedPod2:" destination="fTV-dB-XYF" eventType="touchUpInside" id="I3m-Db-TD3"/>
+                                    <action selector="buttonPressedPodcasts2:" destination="zhS-fu-YW6" eventType="touchUpInside" id="6r8-Tk-HUe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aNm-B5-nGa">
+                                <rect key="frame" x="0.0" y="423" width="409" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Our Planet From Deserts to Grasslands | Netflix (1 Hour)"/>
+                                <connections>
+                                    <action selector="buttonPressedDoc1:" destination="fTV-dB-XYF" eventType="touchUpInside" id="BGh-oO-ySG"/>
+                                    <action selector="buttonPressedDoc1:" destination="G34-qj-fOh" eventType="touchUpInside" id="HY7-1Z-hsI"/>
+                                    <action selector="buttonPressedDocumentaries1:" destination="zhS-fu-YW6" eventType="touchUpInside" id="pGN-pc-pJz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YYI-rx-oxi">
+                                <rect key="frame" x="4" y="461" width="401" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Our Planet | Netflix (50 Minutes, 8 Episodes)"/>
+                                <connections>
+                                    <action selector="buttonPressed2:" destination="fTV-dB-XYF" eventType="touchUpInside" id="0J1-bn-U3y"/>
+                                    <action selector="buttonPressedDoc2:" destination="G34-qj-fOh" eventType="touchUpInside" id="uzs-ID-1N6"/>
+                                    <action selector="buttonPressedDocumentaries2:" destination="zhS-fu-YW6" eventType="touchUpInside" id="k86-ka-Me9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RVW-gz-rry">
+                                <rect key="frame" x="17" y="611" width="388" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <string key="title">The 11 Most Endangered Animals and How You Can Help Them | Lady Freethinker
+</string>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressedArt1:" destination="fTV-dB-XYF" eventType="touchUpInside" id="To8-YA-7K4"/>
+                                    <action selector="buttonPressedArt1:" destination="G34-qj-fOh" eventType="touchUpInside" id="wcQ-bv-13B"/>
+                                    <action selector="buttonPressedArticles1:" destination="zhS-fu-YW6" eventType="touchUpInside" id="HgZ-ng-NpW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WkY-R0-cZb">
+                                <rect key="frame" x="14" y="655" width="395" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Fighting for a Wild Tomorrow Today | Wild Tomorrow Fund"/>
+                                <connections>
+                                    <action selector="buttonPressedArt2:" destination="G34-qj-fOh" eventType="touchUpInside" id="URD-gh-HVf"/>
+                                    <action selector="buttonPressedArt2:" destination="fTV-dB-XYF" eventType="touchUpInside" id="bcA-Bl-J6C"/>
+                                    <action selector="buttonPressedArticles1:" destination="zhS-fu-YW6" eventType="touchUpInside" id="Y7i-nt-oc2"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="X58-0O-guB"/>
                         <color key="backgroundColor" red="0.68406635520000003" green="0.7835779786" blue="0.7808268666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -110,10 +196,10 @@
             </objects>
             <point key="canvasLocation" x="3321.739130434783" y="-214.28571428571428"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller Oceans-->
         <scene sceneID="oP6-g2-uWg">
             <objects>
-                <viewController id="zhS-fu-YW6" sceneMemberID="viewController">
+                <viewController id="zhS-fu-YW6" customClass="ViewControllerOceans" customModule="plantASeed" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xEI-9X-SCY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -134,6 +220,83 @@
                                     <segue destination="h6U-lA-zzS" kind="show" id="b5q-lF-QfK"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Podcasts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Fv-67-jDk">
+                                <rect key="frame" x="172" y="228" width="71" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Documentaries" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rIe-04-EdX">
+                                <rect key="frame" x="149" y="423" width="116" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Articles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i9W-hf-IAa">
+                                <rect key="frame" x="178" y="613" width="58" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XDc-BF-2TK">
+                                <rect key="frame" x="7" y="257" width="401" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="The Great Pacific Garbage Patch | National Ocean Service (10 Minutes)"/>
+                                <connections>
+                                    <action selector="buttonPressedPodcasts1:" destination="zhS-fu-YW6" eventType="touchUpInside" id="mb2-SW-8uV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Hl-l1-Jmb">
+                                <rect key="frame" x="20" y="298" width="376" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="TIL about sea level rise, part 1 | TILclimate (15 Minutes)"/>
+                                <connections>
+                                    <action selector="buttonPressedPodcasts2:" destination="zhS-fu-YW6" eventType="touchUpInside" id="1n4-4m-qHs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CSs-Rb-kc4">
+                                <rect key="frame" x="19" y="338" width="378" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="TIL about sea level rise, part 2 | TILclimate (15 Minutes)"/>
+                                <connections>
+                                    <action selector="buttonPressed3:" destination="zhS-fu-YW6" eventType="touchUpInside" id="oe3-oJ-1M2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZJm-P9-eFj">
+                                <rect key="frame" x="7" y="452" width="401" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Plastic Ocean | United Nations (10 Minutes)"/>
+                                <connections>
+                                    <action selector="buttonPressedDocumentaries1:" destination="zhS-fu-YW6" eventType="touchUpInside" id="Zr5-WS-JXw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Re-zX-Xvo">
+                                <rect key="frame" x="19" y="490" width="389" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="The Plastic Problem | A PBS NewsHour Documentary (60 Minutes)"/>
+                                <connections>
+                                    <action selector="buttonPressedDocumentaries2:" destination="zhS-fu-YW6" eventType="touchUpInside" id="91a-6t-DLT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RjY-0N-hPU">
+                                <rect key="frame" x="7" y="522" width="401" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="A Plastic Ocean | Netflix (1 Hour 40 Minutes) "/>
+                                <connections>
+                                    <action selector="buttonPressedDocumentaries3:" destination="zhS-fu-YW6" eventType="touchUpInside" id="5e6-RE-IMW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xYd-FS-89z">
+                                <rect key="frame" x="20" y="642" width="374" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="“Ocean Protecting Marine Ecosystems and Livelihoods | Environmental Justice Foundation”"/>
+                                <connections>
+                                    <action selector="buttonPressedArticles1:" destination="zhS-fu-YW6" eventType="touchUpInside" id="Txg-Ga-6JT"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="MBD-U8-oWB"/>
                         <color key="backgroundColor" red="0.63582604934026965" green="0.79094757696594853" blue="0.79004410546520309" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -144,10 +307,10 @@
             </objects>
             <point key="canvasLocation" x="1727.536231884058" y="-575.22321428571422"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller Forests-->
         <scene sceneID="hTd-50-NSG">
             <objects>
-                <viewController id="fTV-dB-XYF" sceneMemberID="viewController">
+                <viewController id="fTV-dB-XYF" customClass="ViewControllerForests" customModule="plantASeed" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="z3A-t0-OMh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -168,6 +331,81 @@
                                     <segue destination="h6U-lA-zzS" kind="show" id="4TS-yv-a46"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Podcasts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XRK-kP-CYc">
+                                <rect key="frame" x="172" y="193" width="71" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Documentaries" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1jw-xK-6ba">
+                                <rect key="frame" x="149" y="388" width="116" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Articles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dyl-j9-p3F">
+                                <rect key="frame" x="178" y="578" width="58" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="59N-Ig-O8X">
+                                <rect key="frame" x="20" y="222" width="388" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Trees! With Joe Middleton from Woodland Trust | For What It's Earth (30 Minutes)"/>
+                                <connections>
+                                    <action selector="buttonPressedPod1:" destination="fTV-dB-XYF" eventType="touchUpInside" id="woQ-st-XXh"/>
+                                    <action selector="buttonPressedPodcasts1:" destination="zhS-fu-YW6" eventType="touchUpInside" id="oNJ-Fu-QOj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KwD-A6-CIB">
+                                <rect key="frame" x="20" y="263" width="388" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Why are we failing to protect the Amazon rainforest? | The Climate Question (30 Minutes)"/>
+                                <connections>
+                                    <action selector="buttonPressedPod2:" destination="fTV-dB-XYF" eventType="touchUpInside" id="Adt-mX-B7V"/>
+                                    <action selector="buttonPressedPodcasts2:" destination="zhS-fu-YW6" eventType="touchUpInside" id="ahv-Jf-epY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uMQ-Rg-Q1m">
+                                <rect key="frame" x="3" y="417" width="409" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="From rainforest to charcoal | DW Documentary (45 Minutes)"/>
+                                <connections>
+                                    <action selector="buttonPressedDoc1:" destination="fTV-dB-XYF" eventType="touchUpInside" id="bot-Jb-naA"/>
+                                    <action selector="buttonPressedDocumentaries1:" destination="zhS-fu-YW6" eventType="touchUpInside" id="Lgu-Li-8HZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oZb-k1-mCb">
+                                <rect key="frame" x="7" y="455" width="401" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="The Destruction of the Amazon Forest, Explained | Vox (15 Minutes)"/>
+                                <connections>
+                                    <action selector="buttonPressed2:" destination="fTV-dB-XYF" eventType="touchUpInside" id="8gM-dD-xQR"/>
+                                    <action selector="buttonPressedDocumentaries2:" destination="zhS-fu-YW6" eventType="touchUpInside" id="aFb-SU-wQ9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n3B-8L-ny1">
+                                <rect key="frame" x="20" y="607" width="374" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Deforestation: Facts, Causes &amp; Effects | Live Science"/>
+                                <connections>
+                                    <action selector="buttonPressedArt1:" destination="fTV-dB-XYF" eventType="touchUpInside" id="t1S-IC-EyO"/>
+                                    <action selector="buttonPressedArticles1:" destination="zhS-fu-YW6" eventType="touchUpInside" id="LbF-Zr-fmr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N9r-QZ-Ns9">
+                                <rect key="frame" x="20" y="649" width="388" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Going in the Wrong Direction: More Tropical Forest Loss in 2019 | The New York Times"/>
+                                <connections>
+                                    <action selector="buttonPressedArt2:" destination="fTV-dB-XYF" eventType="touchUpInside" id="o2s-Gn-ctH"/>
+                                    <action selector="buttonPressedArticles1:" destination="zhS-fu-YW6" eventType="touchUpInside" id="fow-Gb-BoZ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="enb-00-IIJ"/>
                         <color key="backgroundColor" red="0.66267007590000004" green="0.78652864690000002" blue="0.78394061329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -176,7 +414,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HvP-jh-DN8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2526" y="-451"/>
+            <point key="canvasLocation" x="2524.6376811594205" y="-451.33928571428567"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -368,10 +606,10 @@
             </objects>
             <point key="canvasLocation" x="900.00000000000011" y="537.72321428571422"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller Reduce Plastic Waste-->
         <scene sceneID="TkX-xq-vaf">
             <objects>
-                <viewController id="Oz1-2W-Qbb" sceneMemberID="viewController">
+                <viewController id="Oz1-2W-Qbb" customClass="ViewControllerReducePlasticWaste" customModule="plantASeed" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Eu0-W9-snc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -392,6 +630,89 @@
                                     <segue destination="vMg-a9-sXr" kind="show" id="XWk-w2-yck"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Use a metal/reusable water bottle" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fds-2n-Ab0">
+                                <rect key="frame" x="30" y="189" width="364" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o4Y-1G-Cu1">
+                                <rect key="frame" x="30" y="258" width="374" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Bring reusable bags with you to the grocery store
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PAP-sZ-3h5">
+                                <rect key="frame" x="30" y="422" width="355" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Ask for nonplastic alternatives when eating out
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bh0-Ju-rKK">
+                                <rect key="frame" x="30" y="458" width="370" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Reduce the amount of online shopping you do, packaging uses lots of plastic you may not even be aware of. Instead, try to shop locally close to home!</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Avoid fast fashion. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cBv-Xf-PZU">
+                                <rect key="frame" x="27" y="544" width="364" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Replace house and life ammenaties with reusable options " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KhR-7J-z32">
+                                <rect key="frame" x="27" y="601" width="367" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZuC-nO-Lx6">
+                                <rect key="frame" x="27" y="652" width="262" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Buy food with compostable packaging"/>
+                                <connections>
+                                    <action selector="buttonPressedCarbonPetition:" destination="p0x-on-uSu" eventType="touchUpInside" id="pgL-2A-47V"/>
+                                    <action selector="buttonPressedPlasticWasteFood:" destination="Oz1-2W-Qbb" eventType="touchUpInside" id="hkh-Gq-R1i"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G5z-BC-LmV">
+                                <rect key="frame" x="30" y="296" width="374" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Shop at places with zero waste! Groceries specifically for reducing single use plastic are located all around the U.S! Oftentimes, chains like Whole Foods will have a section specifically for zero waste.
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rfd-9l-24L">
+                                <rect key="frame" x="27" y="678" width="307" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Shop reusable cleaning, kitchen, and beauty "/>
+                                <connections>
+                                    <action selector="buttonPressedCarbonPetition:" destination="p0x-on-uSu" eventType="touchUpInside" id="Xrh-zo-uhR"/>
+                                    <action selector="buttonPressedPlasticWasteCleaningKitchenBeauty:" destination="Oz1-2W-Qbb" eventType="touchUpInside" id="JfB-fO-BnQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4rL-eQ-p5I">
+                                <rect key="frame" x="27" y="707" width="324" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Everything you will ever need... but eco friendly"/>
+                                <connections>
+                                    <action selector="buttonPressedCarbonPetition:" destination="p0x-on-uSu" eventType="touchUpInside" id="CJH-1E-Nbg"/>
+                                    <action selector="buttonPressedPlasticWasteEverything:" destination="Oz1-2W-Qbb" eventType="touchUpInside" id="wMe-KQ-Ilj"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="uQq-39-oA9"/>
                         <color key="backgroundColor" red="0.68406635520000003" green="0.7835779786" blue="0.7808268666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -400,12 +721,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rAu-Cs-pqc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1820" y="438"/>
+            <point key="canvasLocation" x="1818.840579710145" y="437.94642857142856"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller Reduce Carbon Footprint-->
         <scene sceneID="rG4-z7-Wwi">
             <objects>
-                <viewController id="p0x-on-uSu" sceneMemberID="viewController">
+                <viewController id="p0x-on-uSu" customClass="ViewControllerReduceCarbonFootprint" customModule="plantASeed" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eQP-fY-iG9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -426,6 +747,59 @@
                                     <segue destination="vMg-a9-sXr" kind="show" id="4to-xH-6l8"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Turn off electrical appliances when you’re not using them and make sure to do full loads of laundry. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fQ1-yH-ojO">
+                                <rect key="frame" x="22" y="175" width="364" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mSI-Lp-fcE">
+                                <rect key="frame" x="22" y="253" width="364" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Switch to LED lightbulbs! Not only do they last longer and save you money, they also create less of an impact on the environment than normal light bulbs.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ride your bike, walk, or carpool when you can!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Qx-ml-gRt">
+                                <rect key="frame" x="22" y="372" width="351" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zjN-gL-ySG">
+                                <rect key="frame" x="22" y="407" width="370" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Try to reduce your red meat intake! Instead, try some plant based substitutes.
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Avoid fast fashion. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dFE-tx-39H">
+                                <rect key="frame" x="22" y="492" width="364" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sign petitions for companies to start reducing their carbon footprint!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RYj-pP-rTq">
+                                <rect key="frame" x="22" y="555" width="370" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="coH-Xe-9vw">
+                                <rect key="frame" x="22" y="609" width="191" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Press here to sign a petition"/>
+                                <connections>
+                                    <action selector="buttonPressedCarbonPetition:" destination="p0x-on-uSu" eventType="touchUpInside" id="xiv-kD-F7Z"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="OMQ-9n-dDA"/>
                         <color key="backgroundColor" red="0.69934517149999997" green="0.78042238949999998" blue="0.7775430083" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -436,10 +810,10 @@
             </objects>
             <point key="canvasLocation" x="2574" y="610"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller Recipes-->
         <scene sceneID="Drh-fu-lRa">
             <objects>
-                <viewController id="88e-N0-8ao" sceneMemberID="viewController">
+                <viewController id="88e-N0-8ao" customClass="ViewControllerRecipes" customModule="plantASeed" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TMZ-Ey-gag">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -472,9 +846,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="6G4-d5-ceF"/>
+        <segue reference="4to-xH-6l8"/>
         <segue reference="pTX-1P-gOF"/>
-        <segue reference="fbo-oU-qGp"/>
+        <segue reference="4TS-yv-a46"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="camera.fill" catalog="system" width="128" height="94"/>
