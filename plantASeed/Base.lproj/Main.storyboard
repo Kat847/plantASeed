@@ -355,7 +355,7 @@
                                     <action selector="buttonPressedDocumentaries3:" destination="zhS-fu-YW6" eventType="touchUpInside" id="5e6-RE-IMW"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-22 at 12.03.56 PM" translatesAutoresizingMaskIntoConstraints="NO" id="ZvN-Kp-O1f">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oceanPollutionImg" translatesAutoresizingMaskIntoConstraints="NO" id="ZvN-Kp-O1f">
                                 <rect key="frame" x="-4" y="669" width="424" height="214"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -794,23 +794,11 @@
                                 <color key="textColor" red="0.079664315400000005" green="0.17251425079999999" blue="0.24355670099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rfd-9l-24L">
-                                <rect key="frame" x="26" y="700" width="346" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="15"/>
-                                <state key="normal" title="Shop reusable cleaning, kitchen, and beauty ">
-                                    <color key="titleColor" red="0.079664315400000005" green="0.17251425079999999" blue="0.24355670099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                                <connections>
-                                    <action selector="buttonPressedCarbonPetition:" destination="p0x-on-uSu" eventType="touchUpInside" id="Xrh-zo-uhR"/>
-                                    <action selector="buttonPressedPlasticWasteCleaningKitchenBeauty:" destination="Oz1-2W-Qbb" eventType="touchUpInside" id="JfB-fO-BnQ"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4rL-eQ-p5I">
-                                <rect key="frame" x="26" y="723" width="363" height="28"/>
+                                <rect key="frame" x="26" y="716" width="370" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="15"/>
-                                <state key="normal" title="Everything you will ever need... but eco friendly">
+                                <state key="normal" title="*everything you will ever need... but eco friendly">
                                     <color key="titleColor" red="0.079664315400000005" green="0.17251425079999999" blue="0.24355670099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
@@ -819,15 +807,35 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZuC-nO-Lx6">
-                                <rect key="frame" x="26" y="674" width="297" height="28"/>
+                                <rect key="frame" x="26" y="657" width="374" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="15"/>
-                                <state key="normal" title="Buy food with compostable packaging">
+                                <state key="normal" title="*press to buy food with compostable packaging">
                                     <color key="titleColor" red="0.079664315400000005" green="0.17251425079999999" blue="0.24355670099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <action selector="buttonPressedCarbonPetition:" destination="p0x-on-uSu" eventType="touchUpInside" id="pgL-2A-47V"/>
                                     <action selector="buttonPressedPlasticWasteFood:" destination="Oz1-2W-Qbb" eventType="touchUpInside" id="hkh-Gq-R1i"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bottle1Img" translatesAutoresizingMaskIntoConstraints="NO" id="q1i-B9-Xsq">
+                                <rect key="frame" x="238" y="67" width="219" height="158"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bottle2Img" translatesAutoresizingMaskIntoConstraints="NO" id="ozw-IY-WaA">
+                                <rect key="frame" x="-35" y="736" width="204" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rfd-9l-24L">
+                                <rect key="frame" x="-7" y="681" width="415" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="15"/>
+                                <state key="normal" title="*press to shop reusable cleaning and beauty ">
+                                    <color key="titleColor" red="0.079664315400000005" green="0.17251425079999999" blue="0.24355670099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressedCarbonPetition:" destination="p0x-on-uSu" eventType="touchUpInside" id="Xrh-zo-uhR"/>
+                                    <action selector="buttonPressedPlasticWasteCleaningKitchenBeauty:" destination="Oz1-2W-Qbb" eventType="touchUpInside" id="JfB-fO-BnQ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -905,10 +913,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="coH-Xe-9vw">
-                                <rect key="frame" x="21" y="618" width="212" height="28"/>
+                                <rect key="frame" x="20" y="602" width="179" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="15"/>
-                                <state key="normal" title="press here to sign a petition">
+                                <state key="normal" title="*press to sign a petition">
                                     <color key="titleColor" red="0.079664315400000005" green="0.17251425079999999" blue="0.24355670099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
@@ -922,6 +930,14 @@
                                 <color key="textColor" red="0.079664315400000005" green="0.17251425079999999" blue="0.24355670099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="leaf1Img" translatesAutoresizingMaskIntoConstraints="NO" id="K24-DM-Ufa">
+                                <rect key="frame" x="231" y="36" width="300" height="221"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="leaf2Img" translatesAutoresizingMaskIntoConstraints="NO" id="vZG-b9-4V0">
+                                <rect key="frame" x="-53" y="602" width="324" height="246"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="OMQ-9n-dDA"/>
                         <color key="backgroundColor" red="0.69934517149999997" green="0.78042238949999998" blue="0.7775430083" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -959,24 +975,27 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B3W-Zo-oQ0">
-                                <rect key="frame" x="71" y="260" width="272" height="30"/>
+                                <rect key="frame" x="60" y="263" width="294" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="15"/>
                                 <state key="normal" title="Mindful Eating: 15 Eco-Friendly Recipes"/>
                                 <connections>
                                     <segue destination="YB8-1c-9w6" kind="show" id="Hud-pI-n7r"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mac-bz-xAI">
-                                <rect key="frame" x="127" y="353" width="160" height="30"/>
+                                <rect key="frame" x="121" y="356" width="173" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="15"/>
                                 <state key="normal" title="22 Sustainable Recipes"/>
                                 <connections>
                                     <segue destination="yd8-xy-4qE" kind="show" id="y6z-jt-b1W"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tuq-hY-vE5">
-                                <rect key="frame" x="95" y="433" width="224" height="30"/>
+                                <rect key="frame" x="83" y="449" width="248" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="aAtomicMd" family="a Atomic Md" pointSize="15"/>
                                 <state key="normal" title="Healthy and Sustainable Recipes"/>
                                 <connections>
                                     <segue destination="alW-92-KVB" kind="show" id="90b-BZ-WL5"/>
@@ -1085,15 +1104,19 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="DfB-Px-ubP"/>
-        <segue reference="pTX-1P-gOF"/>
-        <segue reference="b5q-lF-QfK"/>
+        <segue reference="XWk-w2-yck"/>
+        <segue reference="x8a-zK-JRt"/>
+        <segue reference="BfD-0l-BNi"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="Screen Shot 2021-07-22 at 12.03.56 PM" width="634" height="272"/>
+        <image name="bottle1Img" width="2048" height="1536"/>
+        <image name="bottle2Img" width="2048" height="1536"/>
         <image name="camera.fill" catalog="system" width="128" height="94"/>
         <image name="forestsImg" width="790" height="604"/>
+        <image name="leaf1Img" width="2048" height="1536"/>
+        <image name="leaf2Img" width="2048" height="1536"/>
         <image name="logo1" width="2048" height="2048"/>
+        <image name="oceanPollutionImg" width="634" height="272"/>
         <image name="wildlifeImg" width="1010" height="350"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
